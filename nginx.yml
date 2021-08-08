@@ -6,4 +6,4 @@
   tasks:
     - yum:
         name: nginx
-      when: ansible_os_family == "CentOS"
+      when: ansible_os_family == "RedHat"
